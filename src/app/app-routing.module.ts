@@ -7,6 +7,8 @@ import { UserEditComponent } from './user-edit/user-edit.component';
 const routes: Routes = [
   { path: '', redirectTo: '', pathMatch: 'full' },
   { path: 'users', component: UserListComponent },
+    { path: 'formen', component: EmailFormComponent },
+    { path: 'forwomen', component: ContactComponent },
   { path: 'users/create', component: UserCreateComponent },
   { path: 'users/edit/:id', component: UserEditComponent },
 ];
