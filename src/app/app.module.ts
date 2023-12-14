@@ -11,9 +11,14 @@ import { UserEditComponent } from './user-edit/user-edit.component';
 import { UserDetailsComponent } from './user-details/user-details.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import {EmailFormComponent } from './email-form/email-form.component';
+import {ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
+    ContactComponent,
+  EmailFormComponent,
+    
     AppComponent,
     EmailFormComponent,
     ContactComponent,
