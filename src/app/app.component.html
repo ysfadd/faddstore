@@ -11,15 +11,13 @@
     
   <a class="button" routerLink="/formen">For men</a> |
   <a class="button" routerLink="/forwomen">For women</a>
-         <div class="row">
-           <div class="col-lg-4 col-md-6 icon-box">
+       <a routerLink="/users/create" routerLinkActive="active">Take Order</a>
+      
        <router-outlet></router-outlet>
-         </div>
+       
         
         
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
-          <router-outlet></router-outlet>
-        </div>
+       
           
     </nav><!-- .navbar -->
    
@@ -195,14 +193,8 @@ class="col-lg-4 col-md-6 portfolio-item filter-app"></app-contact>
 
     </div>
   </section><!-- End Frequently Asked Questions Section -->
-  <section>
-    <nav>
-   
-    <br>
-    <a routerLink="/users/create" routerLinkActive="active">Take Order</a>
-  </nav>
-  <router-outlet></router-outlet>
-</section>
+
+
 
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact section-bg">
